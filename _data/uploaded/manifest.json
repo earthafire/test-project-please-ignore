@@ -23,6 +23,16 @@
         "id": "https://earthafire.github.io/test-project-please-ignore/uploaded/canvas-1/canvas",
         "type": "Canvas",
         "duration": 1415.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://earthafire.github.io/test-project-please-ignore/annotations/uploaded-canvas-1-annotation.json",
+            "label": {
+              "none": ["Annotation"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://earthafire.github.io/test-project-please-ignore/uploaded/canvas-1/paintings",

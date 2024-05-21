@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://earthafire.github.io/test-project-please-ignore/uploaded/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "uploaded" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/download/kv1dr4/5477-01.ia.mp4",
+        "type": "Text",
+        "label": { "en": [ "uploaded" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://archive.org/download/kv1dr4/5477-01.ia.mp4",
+        "type": "Agent",
+        "label": { "en": [ "archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://earthafire.github.io/test-project-please-ignore/uploaded/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1415.0,
+        "items": [
+          {
+            "id": "https://earthafire.github.io/test-project-please-ignore/uploaded/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://earthafire.github.io/test-project-please-ignore/uploaded/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/download/kv1dr4/5477-01.ia.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 1415.0
+                },
+                "target": "https://earthafire.github.io/test-project-please-ignore/uploaded/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
